@@ -2,6 +2,10 @@ module github.com/99designs/gqlgen
 
 go 1.12
 
+replace sourcegraph.com/sourcegraph/appdash => github.com/sourcegraph/appdash v0.0.0-20211028080628-e2786a622600
+
+replace sourcegraph.com/sourcegraph/appdash-data => github.com/sourcegraph/appdash-data v0.0.0-20151005221446-73f23eafcf67
+
 require (
 	github.com/agnivade/levenshtein v1.1.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
